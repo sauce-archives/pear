@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>saucelabs.github.com/pear</name>
+  <summary>saucelabs's PEAR Channel Server</summary>
+  <alias>saucelabs</alias>
+  <url>http://saucelabs.github.com/pear</url>
+</server>
