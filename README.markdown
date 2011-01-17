@@ -1,7 +1,7 @@
 PEAR Channel Server hosted by GitHub
 ====================================
 
-This is the Sauce Labs PEAR Channel Server hosted by GitHub and powered by [Pirum](http://www.pirum-project.org):
+This is the Sauce Labs PEAR Channel Server hosted by GitHub and powered by [Pirum](http://www.pirum-project.org)
 
 Inspired by jsor's PEAR channel [jsor.github.com/pear](http://jsor.github.com/pear)
 
