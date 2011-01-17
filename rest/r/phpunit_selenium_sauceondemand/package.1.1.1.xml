@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0                       http://pear.php.net/dtd/tasks-1.0.xsd                       http://pear.php.net/dtd/package-2.0                       http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPUnit_Selenium_SauceOnDemand</name>
+ <channel>saucelabs.github.com/pear</channel>
+ <summary>Sauce OnDemand integration for PHPUnit</summary>
+ <description>Extension of PHPUnit_Selenium providing Sauce OnDemand integration for PHPUnit.</description>
+ <lead>
+  <name>Jan Sorgalla</name>
+  <user>jsor</user>
+  <email>jan.sorgalla@dotsunited.de</email>
+  <active>no</active>
+ </lead>
+ <developer>
+  <name>Jan Mathes</name>
+  <user>jmathes</user>
+  <email>jmathes@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2011-01-17</date>
+ <time>15:19:29</time>
+ <version>
+  <release>1.1.1</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>BSD License</license>
+ <notes>
+https://github.com/saucelabs/phpunit-selenium-sauceondemand#readme
+ </notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="/" md5sum="225bd787868e2206173a181ddced9923" name="PHPUnit/Extensions/SeleniumTestCase/SauceOnDemandTestCase/Driver.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c140a19f6eaa472d5074c1674fe81b70" name="PHPUnit/Extensions/SeleniumTestCase/SauceOnDemandTestCase.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.7</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.1</min>
+   </pearinstaller>
+   <package>
+    <name>PHPUnit_Selenium</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.0.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
