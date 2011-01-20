@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0                       http://pear.php.net/dtd/tasks-1.0.xsd                       http://pear.php.net/dtd/package-2.0                       http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPUnit_Selenium_SauceOnDemand</name>
+ <channel>saucelabs.github.com/pear</channel>
+ <summary>Sauce OnDemand integration for PHPUnit</summary>
+ <description>Extension of PHPUnit_Selenium providing Sauce OnDemand integration for PHPUnit.</description>
+ <lead>
+  <name>Jan Sorgalla</name>
+  <user>jsor</user>
+  <email>jan.sorgalla@dotsunited.de</email>
+  <active>no</active>
+ </lead>
+ <developer>
+  <name>Joe Mathes</name>
+  <user>jmathes</user>
+  <email>jmathes@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Eric Allen</name>
+  <user>epall</user>
+  <email>ericpallen@gmail.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2011-01-20</date>
+ <time>15:29:14</time>
+ <version>
+  <release>1.2.2</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>BSD License</license>
+ <notes>
+https://github.com/saucelabs/phpunit-selenium-sauceondemand#readme
+ </notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="/" md5sum="6585ad091f8fa1619f63b0c32f1b99e3" name="PHPUnit/Extensions/SeleniumTestCase/SauceOnDemandTestCase/Driver.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f0135b2e170205a8ef46de6d31e3dd6b" name="PHPUnit/Extensions/SeleniumTestCase/SauceOnDemandTestCase.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6e10a86591949605e76dacf4ae2d4f5a" name="pearsauce.php" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="13dac82a0c3c26218966d034eef892c2" name="pearsauce.bat" role="script">
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="77b73159a09100961534c84e8ee29997" name="sauce.php" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f77fcf420a13f99d246d59c29581073d" name="sauce.bat" role="script">
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.7</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.1</min>
+   </pearinstaller>
+   <package>
+    <name>PHPUnit_Selenium</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>YAML</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0.2</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.0.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <installconditions>
+   <os>
+    <name>windows</name>
+   </os>
+  </installconditions>
+  <filelist>
+   <install as="pearsauce" name="pearsauce.php" />
+   <install as="sauce" name="sauce.php" />
+   <install as="pearsauce.bat" name="pearsauce.bat" />
+   <install as="sauce.bat" name="sauce.bat" />
+  </filelist>
+ </phprelease>
+ <phprelease>
+  <filelist>
+   <install as="pearsauce" name="pearsauce.php" />
+   <install as="sauce" name="sauce.php" />
+   <ignore name="pearsauce.bat" />
+   <ignore name="sauce.bat" />
+  </filelist>
+ </phprelease>
+ <phprelease />
+</package>
