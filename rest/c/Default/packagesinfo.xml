@@ -13,12 +13,20 @@
 
         <a>
             <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
                 <v>1.1.1</v>
                 <s>stable</s>
             </r>
 
         </a>
 
+        <deps>
+            <v>1.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.7";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.1";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:16:"PHPUnit_Selenium";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:4:"YAML";s:7:"channel";s:24:"pear.symfony-project.com";s:3:"min";s:5:"1.0.2";}}}}</d>
+        </deps>
         <deps>
             <v>1.1.1</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.7";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.1";}s:7:"package";a:3:{s:4:"name";s:16:"PHPUnit_Selenium";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.0";}}}</d>
