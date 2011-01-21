@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/phpunit_selenium_sauceondemand">PHPUnit_Selenium_SauceOnDemand</p>
+    <c>saucelabs.github.com/pear</c>
+    <v>1.2.3</v>
+    <st>stable</st>
+    <l>BSD License</l>
+    <m>jsor</m>
+    <s>Sauce OnDemand integration for PHPUnit</s>
+    <d>Extension of PHPUnit_Selenium providing Sauce OnDemand integration for PHPUnit.</d>
+    <da>2011-01-20 15:41:30</da>
+    <n>
+https://github.com/saucelabs/phpunit-selenium-sauceondemand#readme
+ </n>
+    <f>6911</f>
+    <g>http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.3</g>
+    <x xlink:href="package.1.2.3.xml"/>
+</r>
