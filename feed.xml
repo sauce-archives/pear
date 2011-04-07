@@ -7,6 +7,17 @@
     </author>
 
     <entry>
+        <title>PHPUnit_Selenium_SauceOnDemand 1.2.5 (stable)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.5.tgz" />
+        <id>PHPUnit_Selenium_SauceOnDemand-1.2.5</id>
+        <author>
+            <name>jsor</name>
+        </author>
+        <updated>2011-04-06T22:59:15-07:00</updated>
+        <content>
+            Extension of PHPUnit_Selenium providing Sauce OnDemand integration for PHPUnit.
+        </content>
+    </entry>    <entry>
         <title>PHPUnit_Selenium_SauceOnDemand 1.2.4 (stable)</title>
         <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.4.tgz" />
         <id>PHPUnit_Selenium_SauceOnDemand-1.2.4</id>
