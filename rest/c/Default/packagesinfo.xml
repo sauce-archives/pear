@@ -2,6 +2,30 @@
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
     <pi>
         <p>
+            <n>PHPUnit</n>
+            <c>saucelabs.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License</l>
+            <s>The PHP Unit Testing framework.</s>
+            <d>The PHP Unit Testing framework.</d>
+            <r xlink:href="/rest/r/phpunit" />
+        </p>
+
+        <a>
+            <r>
+                <v>3.5.15</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>3.5.15</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.7";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.3";}s:7:"package";a:8:{i:0;a:3:{s:4:"name";s:6:"DbUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:13:"File_Iterator";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.2.3";}i:2;a:3:{s:4:"name";s:13:"Text_Template";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.0";}i:3;a:3:{s:4:"name";s:16:"PHP_CodeCoverage";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.2";}i:4;a:3:{s:4:"name";s:9:"PHP_Timer";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.0";}i:5;a:3:{s:4:"name";s:18:"PHPUnit_MockObject";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.3";}i:6;a:3:{s:4:"name";s:16:"PHPUnit_Selenium";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.0.1";}i:7;a:3:{s:4:"name";s:4:"YAML";s:7:"channel";s:24:"pear.symfony-project.com";s:3:"min";s:5:"1.0.2";}}s:9:"extension";a:4:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:4:"pcre";}i:2;a:1:{s:4:"name";s:10:"reflection";}i:3;a:1:{s:4:"name";s:3:"spl";}}}s:8:"optional";a:2:{s:7:"package";a:2:{s:4:"name";s:8:"XML_RPC2";s:7:"channel";s:12:"pear.php.net";}s:9:"extension";a:5:{i:0;a:1:{s:4:"name";s:4:"curl";}i:1;a:1:{s:4:"name";s:4:"dbus";}i:2;a:1:{s:4:"name";s:4:"json";}i:3;a:1:{s:4:"name";s:9:"simplexml";}i:4;a:1:{s:4:"name";s:9:"tokenizer";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>PHPUnit_Selenium_SauceOnDemand</n>
             <c>saucelabs.github.com/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
