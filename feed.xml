@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://saucelabs.github.com/pear</id>
-    <updated>2011-10-17T15:15:08-07:00</updated>
+    <updated>2011-10-17T15:15:55-07:00</updated>
     <title>saucelabs's PEAR Channel Server Latest Releases</title>
     <link href="http://saucelabs.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -40,6 +40,17 @@
         <updated>2011-10-17T11:51:11-07:00</updated>
         <content>
             Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.
+        </content>
+    </entry>    <entry>
+        <title>PHPUnit_Selenium 1.1.1 (beta)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.1.tgz" />
+        <id>http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.1.tgz</id>
+        <author>
+            <name>sb</name>
+        </author>
+        <updated>2011-10-17T22:04:20-07:00</updated>
+        <content>
+            Selenium RC integration for PHPUnit
         </content>
     </entry>    <entry>
         <title>PHPUnit_Selenium_SauceOnDemand 1.3.3 (stable)</title>
