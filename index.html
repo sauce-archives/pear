@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>saucelabs's PEAR Channel Server</title>
-    <link rel="stylesheet" type="text/css" href="http://saucelabs.github.com/pear/pirum.css" />
+    <link rel="stylesheet" type="text/css" href="pirum.css" />
     <link rel="alternate" type="application/rss+xml" href="http://saucelabs.github.com/pear/feed.xml" title="saucelabs's PEAR Channel Server Latest Releases" />
 </head>
 <body>
@@ -13,8 +13,6 @@
         </div>
         <div id="bd">
             <div class="yui-g">
-                <h2>Using this Channel</h2>
-                <p>This channel is to be used with the PEAR installer.</p>
                 <em>Registering</em> the channel:
                 <pre><code>pear channel-discover saucelabs.github.com/pear</code></pre>
                 <em>Listing</em> available packages:
@@ -27,23 +25,30 @@ pear install saucelabs/package_name-beta</code></pre>
                 <em>Receiving</em> updates via a <a href="http://saucelabs.github.com/pear/feed.xml">feed</a>:
                 <pre><code>http://saucelabs.github.com/pear/feed.xml</code></pre>
 
-                <h2>Packages</h2>
-
+                                    <h3>PHPUnit<small> - The PHP Unit Testing framework.</small></h3>
+                    <p>The PHP Unit Testing framework.</p>
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install saucelabs/PHPUnit</strong></td></tr>
+                        <tr><th>License</th><td>BSD License</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    pear.phpunit.de/DbUnit,                                                                     pear.phpunit.de/File_Iterator,                                                                     pear.phpunit.de/Text_Template,                                                                     pear.phpunit.de/PHP_CodeCoverage,                                                                     pear.phpunit.de/PHP_Timer,                                                                     pear.phpunit.de/PHPUnit_MockObject,                                                                     pear.phpunit.de/PHPUnit_Selenium,                                                                     pear.symfony-project.com/YAML                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Sebastian Bergmann <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://saucelabs.github.com/pear/get/PHPUnit-3.5.15.tgz">3.5.15</a> <small>(stable)</small></td></tr>
+                    </table>
                                     <h3>PHPUnit_Selenium_SauceOnDemand<small> - Sauce OnDemand integration for PHPUnit</small></h3>
                     <p>Extension of PHPUnit_Selenium providing Sauce OnDemand integration for PHPUnit.</p>
-                    <ul>
-                        <li><strong>Package name</strong>: PHPUnit_Selenium_SauceOnDemand</li>
-                        <li><strong>License</strong>: BSD License</li>
-                                                <li><strong>Maintainers</strong>: Jan Sorgalla (as lead), Joe Mathes (as developer), Eric Allen (as developer)</li>
-                                                <li><strong>Releases</strong>: <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.5.tgz">1.2.5</a> (stable), <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.4.tgz">1.2.4</a> (stable), <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.3.tgz">1.2.3</a> (stable), <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.2.tgz">1.2.2</a> (stable), <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.1.tgz">1.2.1</a> (stable), <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.0.tgz">1.2.0</a> (stable), <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.1.1.tgz">1.1.1</a> (stable)</li>
-                        <li><strong>Install command</strong>: pear install saucelabs/PHPUnit_Selenium_SauceOnDemand</li>
-                    </ul>
-
-                    <hr />
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install saucelabs/PHPUnit_Selenium_SauceOnDemand</strong></td></tr>
+                        <tr><th>License</th><td>BSD License</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    pear.phpunit.de/PHPUnit_Selenium,                                                                     pear.symfony-project.com/YAML,                                                                     pear.phpunit.de/PHPUnit                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Jan Sorgalla <small>(as lead)</small>, Joe Mathes <small>(as developer)</small>, Eric Allen <small>(as developer)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.5.tgz">1.2.5</a> <small>(stable)</small>, <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.4.tgz">1.2.4</a> <small>(stable)</small>, <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.3.tgz">1.2.3</a> <small>(stable)</small>, <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.2.tgz">1.2.2</a> <small>(stable)</small>, <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.1.tgz">1.2.1</a> <small>(stable)</small>, <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.2.0.tgz">1.2.0</a> <small>(stable)</small>, <a href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.1.1.tgz">1.1.1</a> <small>(stable)</small></td></tr>
+                    </table>
                             </div>
         </div>
         <div id="ft">
-            <p><small>The <em>saucelabs.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.0</small></p>
+            <p><small>The <em>saucelabs.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://pirum.sensiolabs.org/">Pirum</a> 1.0.3</small></p>
         </div>
     </div>
 </body>
