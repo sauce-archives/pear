@@ -2,17 +2,17 @@
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/phpunit_selenium">PHPUnit_Selenium</p>
     <c>saucelabs.github.com/pear</c>
-    <v>1.1.1</v>
-    <st>beta</st>
+    <v>1.1.2</v>
+    <st>stable</st>
     <l>BSD License</l>
     <m>sb</m>
     <s>Temporary Sauce Labs mirror for Selenium RC integration for PHPUnit</s>
     <d>Temporary Sauce Labs mirror for Selenium RC integration for PHPUnit</d>
-    <da>2011-10-17 22:04:20</da>
+    <da>2011-10-17 22:53:06</da>
     <n>
 http://github.com/sebastianbergmann/phpunit-selenium/blob/master/README.markdown
  </n>
-    <f>16177</f>
-    <g>http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.1</g>
-    <x xlink:href="package.1.1.1.xml"/>
+    <f>16156</f>
+    <g>http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.2</g>
+    <x xlink:href="package.1.1.2.xml"/>
 </r>
