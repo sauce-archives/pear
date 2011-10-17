@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://saucelabs.github.com/pear</id>
-    <updated>2011-10-17T16:02:20-07:00</updated>
+    <updated>2011-10-17T16:03:43-07:00</updated>
     <title>saucelabs's PEAR Channel Server Latest Releases</title>
     <link href="http://saucelabs.github.com/pear/feed.xml" rel="self" />
     <author>
