@@ -3,6 +3,11 @@
     <p>PHPUnit_Selenium_SauceOnDemand</p>
     <c>saucelabs.github.com/pear</c>
     <r>
+        <v>1.3.5</v>
+        <s>stable</s>
+        <m>5.2.7</m>
+    </r>
+    <r>
         <v>1.3.4</v>
         <s>stable</s>
         <m>5.2.7</m>

@@ -3,6 +3,10 @@
     <p>PHPUnit</p>
     <c>saucelabs.github.com/pear</c>
     <r>
+        <v>3.5.19</v>
+        <s>stable</s>
+    </r>
+    <r>
         <v>3.5.18</v>
         <s>stable</s>
     </r>
