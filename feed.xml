@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://saucelabs.github.com/pear</id>
-    <updated>2011-10-17T16:23:50-07:00</updated>
+    <updated>2011-10-17T17:57:15-07:00</updated>
     <title>saucelabs's PEAR Channel Server Latest Releases</title>
     <link href="http://saucelabs.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,17 @@
     </author>
 
     <entry>
+        <title>PHPUnit 3.5.20 (stable)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit-3.5.20.tgz" />
+        <id>http://saucelabs.github.com/pear/get/PHPUnit-3.5.20.tgz</id>
+        <author>
+            <name>sb</name>
+        </author>
+        <updated>2011-10-18T00:52:50-07:00</updated>
+        <content>
+            Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.
+        </content>
+    </entry>    <entry>
         <title>PHPUnit 3.5.19 (stable)</title>
         <link href="http://saucelabs.github.com/pear/get/PHPUnit-3.5.19.tgz" />
         <id>http://saucelabs.github.com/pear/get/PHPUnit-3.5.19.tgz</id>
@@ -64,6 +75,17 @@
             Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.
         </content>
     </entry>    <entry>
+        <title>PHPUnit_Selenium 1.1.4 (stable)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.4.tgz" />
+        <id>http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.4.tgz</id>
+        <author>
+            <name>sb</name>
+        </author>
+        <updated>2011-10-18T00:51:14-07:00</updated>
+        <content>
+            Temporary Sauce Labs fork of Selenium RC integration for PHPUnit
+        </content>
+    </entry>    <entry>
         <title>PHPUnit_Selenium 1.1.3 (stable)</title>
         <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.3.tgz" />
         <id>http://saucelabs.github.com/pear/get/PHPUnit_Selenium-1.1.3.tgz</id>
@@ -72,7 +94,7 @@
         </author>
         <updated>2011-10-17T23:21:46-07:00</updated>
         <content>
-            Temporary Sauce Labs mirror for Selenium RC integration for PHPUnit
+            Temporary Sauce Labs fork of Selenium RC integration for PHPUnit
         </content>
     </entry>    <entry>
         <title>PHPUnit_Selenium 1.1.2 (stable)</title>
@@ -83,7 +105,7 @@
         </author>
         <updated>2011-10-17T22:53:06-07:00</updated>
         <content>
-            Temporary Sauce Labs mirror for Selenium RC integration for PHPUnit
+            Temporary Sauce Labs fork of Selenium RC integration for PHPUnit
         </content>
     </entry>    <entry>
         <title>PHPUnit_Selenium 1.1.1 (beta)</title>
@@ -94,7 +116,18 @@
         </author>
         <updated>2011-10-17T22:04:20-07:00</updated>
         <content>
-            Temporary Sauce Labs mirror for Selenium RC integration for PHPUnit
+            Temporary Sauce Labs fork of Selenium RC integration for PHPUnit
+        </content>
+    </entry>    <entry>
+        <title>PHPUnit_Selenium_SauceOnDemand 1.3.6 (stable)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.3.6.tgz" />
+        <id>http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.3.6.tgz</id>
+        <author>
+            <name>jsor</name>
+        </author>
+        <updated>2011-10-18T00:55:25-07:00</updated>
+        <content>
+            Extension of PHPUnit_Selenium providing Sauce OnDemand integration for PHPUnit.
         </content>
     </entry>    <entry>
         <title>PHPUnit_Selenium_SauceOnDemand 1.3.5 (stable)</title>
