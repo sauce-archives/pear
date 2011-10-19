@@ -4,7 +4,7 @@
 <c>saucelabs.github.com/pear</c>
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>BSD License</l>
-<s>Temporary Sauce Labs fork of Selenium RC integration for PHPUnit</s>
-<d>Temporary Sauce Labs fork of Selenium RC integration for PHPUnit</d>
+<s>Saucelabs temporary mirror of Selenium RC integration for PHPUnit</s>
+<d>Saucelabs temporary mirror of Selenium RC integration for PHPUnit to support parallelism, until parallelism gets merged into main</d>
 <r xlink:href="/rest/r/phpunit_selenium" />
 </p>

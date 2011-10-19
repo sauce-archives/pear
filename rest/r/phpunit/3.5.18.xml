@@ -6,8 +6,8 @@
     <st>stable</st>
     <l>BSD License</l>
     <m>sb</m>
-    <s>Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.</s>
-    <d>Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.</d>
+    <s>Saucelabs temporary mirror of PHP Unit Testing framework with parallelism</s>
+    <d>Saucelabs temporary mirror of PHP Unit Testing framework with parallelism, until parallelism gets merged into main</d>
     <da>2011-10-17 22:48:46</da>
     <n>
 http://github.com/sebastianbergmann/phpunit/blob/master/README.markdown

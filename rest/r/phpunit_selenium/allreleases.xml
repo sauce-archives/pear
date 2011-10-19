@@ -3,6 +3,10 @@
     <p>PHPUnit_Selenium</p>
     <c>saucelabs.github.com/pear</c>
     <r>
+        <v>1.1.5</v>
+        <s>stable</s>
+    </r>
+    <r>
         <v>1.1.4</v>
         <s>stable</s>
     </r>

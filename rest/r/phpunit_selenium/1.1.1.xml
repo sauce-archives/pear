@@ -6,8 +6,8 @@
     <st>beta</st>
     <l>BSD License</l>
     <m>sb</m>
-    <s>Temporary Sauce Labs fork of Selenium RC integration for PHPUnit</s>
-    <d>Temporary Sauce Labs fork of Selenium RC integration for PHPUnit</d>
+    <s>Saucelabs temporary mirror of Selenium RC integration for PHPUnit</s>
+    <d>Saucelabs temporary mirror of Selenium RC integration for PHPUnit to support parallelism, until parallelism gets merged into main</d>
     <da>2011-10-17 22:04:20</da>
     <n>
 http://github.com/sebastianbergmann/phpunit-selenium/blob/master/README.markdown
