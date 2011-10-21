@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/phpunit">PHPUnit</p>
+    <c>saucelabs.github.com/pear</c>
+    <v>3.5.23</v>
+    <a>3.5.7</a>
+    <mp>5.2.7</mp>
+    <st>stable</st>
+    <l>BSD License</l>
+    <m>sb</m>
+    <s>Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.</s>
+    <d>Saucelabs temporary mirror of PHP Unit Testing framework with parallelism.</d>
+    <da>2011-10-21 18:13:20</da>
+    <n>
+http://github.com/sebastianbergmann/phpunit/blob/master/README.markdown
+ </n>
+    <f>123063</f>
+    <g>http://saucelabs.github.com/pear/get/PHPUnit-3.5.23</g>
+    <x xlink:href="package.3.5.23.xml"/>
+</r>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://saucelabs.github.com/pear</id>
-    <updated>2011-10-19T14:10:17-07:00</updated>
+    <updated>2011-10-21T11:14:10-07:00</updated>
     <title>saucelabs's PEAR Channel Server Latest Releases</title>
     <link href="http://saucelabs.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>PHPUnit 3.5.23 (stable)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit-3.5.23.tgz" />
+        <id>http://saucelabs.github.com/pear/get/PHPUnit-3.5.23.tgz</id>
+        <author>
+            <name>sb</name>
+        </author>
+        <updated>2011-10-21T18:13:20-07:00</updated>
+        <content>
+            
+http://github.com/sebastianbergmann/phpunit/blob/master/README.markdown
+ 
+        </content>
+    </entry>    <entry>
         <title>PHPUnit 3.5.22 (stable)</title>
         <link href="http://saucelabs.github.com/pear/get/PHPUnit-3.5.22.tgz" />
         <id>http://saucelabs.github.com/pear/get/PHPUnit-3.5.22.tgz</id>
