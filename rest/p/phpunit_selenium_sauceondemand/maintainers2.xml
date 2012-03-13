@@ -3,23 +3,23 @@
     <p>PHPUnit_Selenium_SauceOnDemand</p>
     <c>saucelabs.github.com/pear</c>
     <m>
-        <h>jsor</h>
-        <a>0</a>
+        <h>jmathes</h>
+        <a>1</a>
         <r>lead</r>
     </m>
     <m>
-        <h>jmathes</h>
+        <h>santiycr</h>
         <a>1</a>
         <r>developer</r>
     </m>
     <m>
         <h>epall</h>
-        <a>1</a>
+        <a>0</a>
         <r>developer</r>
     </m>
     <m>
-        <h>santiycr</h>
-        <a>1</a>
+        <h>jsor</h>
+        <a>0</a>
         <r>developer</r>
     </m>
 
