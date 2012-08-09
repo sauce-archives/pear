@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://saucelabs.github.com/pear</id>
-    <updated>2012-07-17T04:16:05-07:00</updated>
+    <updated>2012-08-09T14:15:44-07:00</updated>
     <title>saucelabs's PEAR Channel Server Latest Releases</title>
     <link href="http://saucelabs.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -71,6 +71,19 @@ http://github.com/sebastianbergmann/phpunit-selenium/blob/master/README.markdown
         <content>
             
 http://github.com/sebastianbergmann/phpunit-selenium/blob/master/README.markdown
+ 
+        </content>
+    </entry>    <entry>
+        <title>PHPUnit_Selenium_SauceOnDemand 1.5.3 (stable)</title>
+        <link href="http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.5.3.tgz" />
+        <id>http://saucelabs.github.com/pear/get/PHPUnit_Selenium_SauceOnDemand-1.5.3.tgz</id>
+        <author>
+            <name>jmathes</name>
+        </author>
+        <updated>2012-08-09T21:15:44-07:00</updated>
+        <content>
+            
+https://github.com/saucelabs/phpunit-selenium-sauceondemand#readme
  
         </content>
     </entry>    <entry>
